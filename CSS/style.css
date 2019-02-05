@@ -384,6 +384,6 @@ margin: 8% 20% 20%;
 }
 
 .photogbody{
-  background-color: #fcf8f3;
+  background-color: black; /*#fcf8f3;*/
   text-align: center;
 }
