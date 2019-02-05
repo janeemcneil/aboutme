@@ -26,10 +26,12 @@ body{
   font-family: sans-serif;
 }
 
+
 p{
   font-family: 'Raleway', sans-serif;
   color: #fcf8f3;
 }
+
 
 .subheader{
   font-size: 20px;
@@ -136,7 +138,6 @@ hr{
   background-color: #aedadd;
   position: relative;
   margin: 0 0 0 0;
-
   overflow: auto;
 }
 
@@ -165,7 +166,7 @@ hr{
 .footer-link{
   font-family: 'Raleway', sans-serif;
   color: black;
-  margin: 7em;
+  margin: 2em;
   text-decoration: none;
 }
 
@@ -175,4 +176,214 @@ hr{
 
 .copyright{
   font-size: 0.75rem;
+}
+
+/* Everything that follows is for photog.html page*/
+
+
+
+
+
+
+
+.photogintro{
+margin: 8% 20% 20%;
+}
+
+.photogheader{
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+  padding-bottom: 15%;
+}
+
+.photogquote{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+@keyframes blink {
+  from {color: black;}
+  to {color: grey;}
+}
+
+.down-arrow{
+  align: bottom;
+  margin: 15% auto 10% auto;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.parallax1{
+  margin-top: 10%;
+  background-image:url('../images/airlie.jpg');
+  height: 350px;
+  /* width: 95%; */
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 37%;
+  margin: auto;
+  background-size: contain;
+  /* text-align: center; */
+  border-bottom: : solid;
+}
+
+
+.parallax2{
+  background-image:url('../images/malaga.jpg');
+  height: 600px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 27%;
+
+  padding: 0;
+  background-size: contain;
+
+}
+
+.parallax3{
+  background-image:url('../images/queenstown_view.jpg');
+  height: 350px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 32%;
+
+  padding: 0;
+  background-size: contain;
+
+}
+
+.parallax4{
+  background-image:url('../images/ubud.jpg');
+  height: 500px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 32%;
+
+  padding: 0;
+  background-size: contain;
+}
+
+.parallax5{
+  background-image:url('../images/plaza_de_espana.jpg');
+  height: 600px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 27%;
+  padding: 0;
+  background-size: contain;
+}
+
+.parallax6{
+  background-image:url('../images/ubud_monkey.jpg');
+  height: 600px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 17%;
+  padding: 0;
+  background-size: 45%;
+}
+
+.parallax7{
+  background-image:url('../images/monkey_banana.jpg');
+  height: 620px;
+  /*object-fit: contain;*/
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 22%;
+
+  padding: 0;
+  background-size: 45%;
+}
+
+.parallax8{
+  background-image:url('../images/doubtful_fall.jpg');
+  background-blend-mode: darken;
+  height: 650px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 17%;
+
+  padding: 0;
+  background-size: 35%;
+}
+
+.parallax9{
+  background-image:url('../images/queenstown_flower.jpg');
+  height: 600px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
+
+  padding: 0;
+  background-size: 35%;
+}
+
+.parallax10{
+  background-image:url('../images/mt_baker.jpg');
+  height: 600px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 22%;
+
+  padding: 0;
+  background-size: 50%;
+}
+
+.parallax11{
+  background-image:url('../images/supmtn.jpg');
+  height: 600px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 27%;
+
+  padding: 0;
+  background-size: contain;
+}
+
+.parallax12{
+  background-image:url('../images/sevilla_flamenco.gif');
+  height: 600px;
+  /*object-fit: contain;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 57%;
+
+  padding: 0;
+  background-size: 50%;
+}
+
+.filler{
+  padding: 2%;
+  height: 250px;
+  /* border: inset 1px #fcf8f3; */
+  background-color: #fcf8f3;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.photo-description{
+  align: bottom;
+  color: grey;
+  font-size: 20px;
+}
+
+.sub-description{
+  color: grey;
+  font-size; 17px;
+}
+
+.photogbody{
+  background-color: #fcf8f3;
+  text-align: center;
 }
